@@ -1,0 +1,25 @@
+# set wallpaper
+
+feh --bg-fill /home/martin/Pictures/Wallpapers/solar-system.jpg
+
+# set gtk theme
+
+#mkdir -p /usr/share/themes/Dracula/
+#cp -r ~/.config/themes/gruvbox/Dracula/ /usr/share/themes/Dracula/
+#cp -r ~/.config/themes/gruvbox/gtk/settings.ini ~/.config/gtk-3.0 
+
+# Decoration
+
+bspc config top_padding        45
+bspc config bottom_padding     0
+bspc config left_padding       0
+bspc config right_padding      0
+bspc config border_width       3
+bspc config window_gap         10
+
+# Border colors
+
+bspc config normal_border_color "#282c34"
+bspc config focused_border_color "#4b716e"
+bspc config urgent_border_color "#282c34"
+bspc config presel_border_color "#282c34"
