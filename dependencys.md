@@ -1,3 +1,5 @@
+one line yay installation: pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
 Pacman 
 
 feh \
@@ -22,6 +24,7 @@ sxhkd \
 fish \
 htop \
 btop \
+git \
 
 AUR
 
@@ -30,6 +33,7 @@ lxappearance \
 nerd-fonts-git \
 pywal \
 thunar-shares-plugin \
+visual-studio-code-bin \
 
 Flatpak
 
