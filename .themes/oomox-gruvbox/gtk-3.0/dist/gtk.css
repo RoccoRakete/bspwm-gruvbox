@@ -230,7 +230,7 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
     box-shadow: none; }
 
 .button, .selection-mode.header-bar .button.suggested-action, .selection-mode.toolbar .button.suggested-action {
-  background-color: #315354;
+  background-color: #2d333d;
   background-image: none;
   border-color: rgba(207, 159, 85, 0.32);
   color: #dfbf8e;
@@ -244,13 +244,13 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
   .button:active:insensitive, .selection-mode.header-bar .button.suggested-action:active:insensitive, .selection-mode.toolbar .button.suggested-action:active:insensitive, .button:checked:insensitive, .selection-mode.header-bar .button.suggested-action:checked:insensitive, .selection-mode.toolbar .button.suggested-action:checked:insensitive {
     border-color: rgba(207, 159, 85, 0.32); }
   .button.flat, .selection-mode.header-bar .flat.button.suggested-action, .selection-mode.toolbar .flat.button.suggested-action {
-    border-color: rgba(49, 83, 84, 0);
+    border-color: rgba(45, 51, 61, 0);
     color: #dfbf8e;
-    background-color: rgba(49, 83, 84, 0);
+    background-color: rgba(45, 51, 61, 0);
     background-image: none;
     box-shadow: none; }
   .button:hover, .selection-mode.header-bar .button.suggested-action:hover, .selection-mode.toolbar .button.suggested-action:hover, .button.flat:hover {
-    background-color: #335758;
+    background-color: #2f3640;
     background-image: none;
     border-color: rgba(207, 159, 85, 0.4);
     color: #dfbf8e;
@@ -264,13 +264,13 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
     .button:hover:active:insensitive, .button:hover:checked:insensitive, .button.flat:hover:active:insensitive, .button.flat:hover:checked:insensitive {
       border-color: rgba(207, 159, 85, 0.4); }
   .button:focus, .selection-mode.header-bar .button.suggested-action:focus, .selection-mode.toolbar .button.suggested-action:focus, .button.flat:focus {
-    background-color: #335758;
+    background-color: #2f3640;
     background-image: none;
     border-color: rgba(223, 191, 142, 0.32);
     color: #dfbf8e;
     box-shadow: 0 1px 2px -1px rgba(57, 41, 16, 0.42); }
     .button:focus:hover, .selection-mode.header-bar .button.suggested-action:focus:hover, .selection-mode.toolbar .button.suggested-action:focus:hover, .button.flat:focus:hover {
-      background-color: #365b5c;
+      background-color: #323843;
       background-image: none;
       border-color: rgba(207, 159, 85, 0.4);
       box-shadow: 0 1px 2px -1px rgba(57, 41, 16, 0.48); }
@@ -303,13 +303,13 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
   .button:focus, .selection-mode.header-bar .button.suggested-action:focus, .selection-mode.toolbar .button.suggested-action:focus, .button:hover, .selection-mode.header-bar .button.suggested-action:hover, .selection-mode.toolbar .button.suggested-action:hover, .button.flat:focus, .button.flat:hover {
     color: #dfbf8e; }
   .button:insensitive:insensitive, .selection-mode.header-bar .button.suggested-action:insensitive:insensitive, .selection-mode.toolbar .button.suggested-action:insensitive:insensitive, .button.flat:insensitive:insensitive {
-    background-color: alpha(mix(#315354,#dfbf8e,0.2),0.4);
+    background-color: alpha(mix(#2d333d,#dfbf8e,0.2),0.4);
     background-image: none;
     opacity: .6;
-    color: mix(#315354,#dfbf8e,0.6);
+    color: mix(#2d333d,#dfbf8e,0.6);
     box-shadow: none; }
     .button:insensitive:insensitive :insensitive, .button.flat:insensitive:insensitive :insensitive {
-      color: mix(#315354,#dfbf8e,0.6); }
+      color: mix(#2d333d,#dfbf8e,0.6); }
   .button:active:insensitive, .selection-mode.header-bar .button.suggested-action:active:insensitive, .selection-mode.toolbar .button.suggested-action:active:insensitive, .button:checked:insensitive, .selection-mode.header-bar .button.suggested-action:checked:insensitive, .selection-mode.toolbar .button.suggested-action:checked:insensitive {
     background-color: rgba(75, 113, 110, 0.6);
     background-image: none;
@@ -319,9 +319,9 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
       color: rgba(223, 191, 142, 0.85); }
   .button.separator, .selection-mode.header-bar .separator.button.suggested-action, .selection-mode.toolbar .separator.button.suggested-action, .button .separator, .selection-mode.header-bar .button.suggested-action .separator, .selection-mode.toolbar .button.suggested-action .separator {
     border: 1px solid currentColor;
-    color: rgba(49, 83, 84, 0.9); }
+    color: rgba(45, 51, 61, 0.9); }
     .button.separator:insensitive, .selection-mode.header-bar .separator.button.suggested-action:insensitive, .selection-mode.toolbar .separator.button.suggested-action:insensitive, .button .separator:insensitive, .selection-mode.header-bar .button.suggested-action .separator:insensitive, .selection-mode.toolbar .button.suggested-action .separator:insensitive {
-      color: rgba(49, 83, 84, 0.85); }
+      color: rgba(45, 51, 61, 0.85); }
   .button.default, .selection-mode.header-bar .default.button.suggested-action, .selection-mode.toolbar .default.button.suggested-action {
     background-color: #4b716e;
     background-image: none;
@@ -422,7 +422,7 @@ NemoPathbarButton, column-header, .osd.button, .osd .button,
     .button.linked:active, .selection-mode.header-bar .linked.button.suggested-action:active, .selection-mode.toolbar .linked.button.suggested-action:active, .button.linked:active:hover, .button.linked:active:focus, .button.linked:active:hover:focus, .button.linked:checked, .selection-mode.header-bar .linked.button.suggested-action:checked, .selection-mode.toolbar .linked.button.suggested-action:checked, .button.linked:checked:hover, .button.linked:checked:focus, .button.linked:checked:hover:focus, .linked .button:active, .linked .selection-mode.header-bar .button.suggested-action:active, .selection-mode.header-bar .linked .button.suggested-action:active, .linked .selection-mode.toolbar .button.suggested-action:active, .selection-mode.toolbar .linked .button.suggested-action:active, .linked .button:active:hover, .linked .button:active:focus, .linked .button:active:hover:focus, .linked .button:checked, .linked .selection-mode.header-bar .button.suggested-action:checked, .selection-mode.header-bar .linked .button.suggested-action:checked, .linked .selection-mode.toolbar .button.suggested-action:checked, .selection-mode.toolbar .linked .button.suggested-action:checked, .linked .button:checked:hover, .linked .button:checked:focus, .linked .button:checked:hover:focus {
       box-shadow: inset -1px 0 rgba(0, 0, 0, 0.32), inset 0 1px rgba(57, 41, 16, 0.07), inset 0 -1px rgba(57, 41, 16, 0.05); }
     .button.linked:insensitive, .selection-mode.header-bar .linked.button.suggested-action:insensitive, .selection-mode.toolbar .linked.button.suggested-action:insensitive, .linked .button:insensitive, .linked .selection-mode.header-bar .button.suggested-action:insensitive, .selection-mode.header-bar .linked .button.suggested-action:insensitive, .linked .selection-mode.toolbar .button.suggested-action:insensitive, .selection-mode.toolbar .linked .button.suggested-action:insensitive {
-      box-shadow: inset -1px 0 #274243; }
+      box-shadow: inset -1px 0 #242931; }
     .button.linked:last-child, .selection-mode.header-bar .linked.button.suggested-action:last-child, .selection-mode.toolbar .linked.button.suggested-action:last-child, .button.linked:only-child, .selection-mode.header-bar .linked.button.suggested-action:only-child, .selection-mode.toolbar .linked.button.suggested-action:only-child, .linked .button:last-child, .linked .selection-mode.header-bar .button.suggested-action:last-child, .selection-mode.header-bar .linked .button.suggested-action:last-child, .linked .selection-mode.toolbar .button.suggested-action:last-child, .selection-mode.toolbar .linked .button.suggested-action:last-child, .linked .button:only-child, .linked .selection-mode.header-bar .button.suggested-action:only-child, .selection-mode.header-bar .linked .button.suggested-action:only-child, .linked .selection-mode.toolbar .button.suggested-action:only-child, .selection-mode.toolbar .linked .button.suggested-action:only-child {
       box-shadow: 0 1px 2px -1px rgba(57, 41, 16, 0.22); }
     .button.linked:last-child:hover, .button.linked:only-child:hover, .linked .button:last-child:hover, .linked .button:only-child:hover {
