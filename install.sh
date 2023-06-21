@@ -16,9 +16,7 @@ flatpak install com.spotify.Client
 # create config directory
 mkdir -p ~/configs
 
-# clone repository
-cd ~
-git clone https://github.com/Martin1134/bspwm-gruvbox.git
+# copy config
 cp -r * ~/configs
 rm -rf ~/bspwm-gruvbox
 
