@@ -1,0 +1,1 @@
+git clone https://github.com/RoccoRakete/bspwm-gruvbox.git && cd bspwm-gruvbox && chmod +X install.sh && ./install.sh 
