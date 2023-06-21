@@ -103,6 +103,10 @@ chmod +X ~/configs/bspwm/autostart.sh
 chmod +X ~/configs/bspwm/bspwmrc
 chmod +X ~/configs/polybar/launch.sh
 chmod +X ~/configs/themes/gruvbox/bspwm/bspwmrc
+chmod +X ~/configs/polybar/spotify/media.sh
+chmod +X ~/configs/polybar/tray/tray.sh
+chmod +X ~/configs/polybar/update/update.sh
+chmod +X ~/configs/polybar/weather/weather.sh
 
 # restart bspwm / reload sxhkd config
 bspc wm -r
