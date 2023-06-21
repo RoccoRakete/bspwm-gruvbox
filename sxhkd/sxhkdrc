@@ -44,6 +44,8 @@ super + y
 super + g
 	bspc node -s biggest.window
 
+super + l
+	dm-tool lock
 #
 # state/flags
 #
