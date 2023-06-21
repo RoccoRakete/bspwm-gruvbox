@@ -5,16 +5,10 @@
 sudo pacman -S feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud kwallet kwallet-pam kwalletmanager thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git  
 
 # install yay as aur helper
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S 
-themix-full-git  
-lxappearance  
-nerd-fonts-git  
-pywal  
-thunar-shares-plugin  
-visual-studio-code-bin  
+yay -S themix-full-git lxappearance nerd-fonts-git pywal thunar-shares-plugin visual-studio-code-bin  
 
 # flatpak
 flatpak install com.spotify.Client
@@ -24,7 +18,7 @@ mkdir -p ~/configs
 
 # clone repository
 cd ~
-git clone https://github.com/Martin1134/bspwm-gruvbox.git && cd bspwm-gruvbox
+git clone https://github.com/Martin1134/bspwm-gruvbox.git
 cp -r * ~/configs
 rm -rf ~/bspwm-gruvbox
 
