@@ -1,4 +1,4 @@
-#!/binbash
+#!/bin/bash
 
 # install dependencies
 # pacman
