@@ -28,7 +28,6 @@ btop \
 git \
 
 # install yay as aur helper
-
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
@@ -109,5 +108,6 @@ chmod +X ~/configs/polybar/update/update.sh
 chmod +X ~/configs/polybar/weather/weather.sh
 
 # restart bspwm / reload sxhkd config
+startx bspwm
 bspc wm -r
 pkill -USR1 -x sxhkd
