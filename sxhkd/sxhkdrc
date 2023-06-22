@@ -142,12 +142,15 @@ XF86AudioMute
 
 # Media Control
 
-super + F10
+XF86AudioPrev
 	playerctl previous
-super + F11
+XF86AudioPlay
 	playerctl play-pause
-super + F12
+XF86AudioPlay
 	playerctl next
 
 Print
 	flameshot full -p ~/Pictures/
+
+Home
+	flameshot gui
