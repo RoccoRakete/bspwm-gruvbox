@@ -21,5 +21,5 @@ bspc config window_gap         10
 
 bspc config normal_border_color "#282c34"
 bspc config focused_border_color "#4b716e"
-bspc config urgent_border_color "#282c34"
-bspc config presel_border_color "#282c34"
+bspc config urgent_border_color "#4b716e"
+bspc config presel_border_color "#4b716e"

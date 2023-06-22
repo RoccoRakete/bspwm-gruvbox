@@ -25,6 +25,7 @@ fish \
 htop \
 btop \
 git \
+xfce4-power-manager \
 
 AUR
 

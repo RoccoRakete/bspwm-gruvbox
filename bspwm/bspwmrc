@@ -3,6 +3,8 @@
 # start stuff
 
 xsetroot -cursor_name left_ptr
+dunst
+xfce4-power-manager --daemon
 
 ~/.config/bspwm/autostart.sh 
 
