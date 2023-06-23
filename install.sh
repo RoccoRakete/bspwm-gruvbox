@@ -82,5 +82,5 @@ bspc wm -r
 pkill -USR1 -x sxhkd
 
 # change default shell to fish
- echo /usr/local/bin/fish | sudo tee -a /etc/shells
-  chsh -s /usr/local/bin/fish
+ #echo /usr/local/bin/fish | sudo tee -a /etc/shells
+  chsh -s /bin/fish
