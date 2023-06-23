@@ -17,7 +17,7 @@
 mkdir -p ~/configs
 
 # copy config
-cp -r ~/bspwm-gruvbox/* ~/configs
+cp -r ~/bspwm-gruvbox/. ~/configs
 rm -rf ~/bspwm-gruvbox
 
 # create hardlinks to .config directory

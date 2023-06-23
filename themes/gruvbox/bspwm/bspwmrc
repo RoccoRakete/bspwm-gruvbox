@@ -2,12 +2,6 @@
 
 feh --bg-fill /home/martin/configs/wallpapers/solar-system-minimal.png
 
-# set gtk theme
-
-#mkdir -p /usr/share/themes/Dracula/
-#cp -r ~/.config/themes/gruvbox/Dracula/ /usr/share/themes/Dracula/
-#cp -r ~/.config/themes/gruvbox/gtk/settings.ini ~/.config/gtk-3.0 
-
 # Decoration
 
 bspc config top_padding        45
