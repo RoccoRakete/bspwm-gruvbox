@@ -2,7 +2,7 @@
 
 # install dependencies
 # pacman
-sudo pacman -S feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud kwallet kwallet-pam kwalletmanager thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git  
+sudo pacman -S feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud kwallet kwallet-pam kwalletmanager thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst  
 
 # install yay as aur helper
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si

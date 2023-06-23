@@ -26,6 +26,7 @@ htop \
 btop \
 git \
 xfce4-power-manager \
+dunst \ 
 
 AUR
 
