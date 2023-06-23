@@ -68,6 +68,8 @@ sudo ln -s ~/configs/xfce4 ~/.config/
  
 sudo ln -s ~/configs/.themes ~/.themes
 
+sudo ln -s ~/configs/Future-cursors ~/.icons
+
 # make scripts executable
 chmod +X ~/configs/bspwm/autostart.sh
 chmod +X ~/configs/bspwm/bspwmrc
