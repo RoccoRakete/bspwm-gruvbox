@@ -2,16 +2,16 @@
 
 # install dependencies
 # pacman
-#sudo pacman -S feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud kwallet kwallet-pam kwalletmanager thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst  
+sudo pacman -S feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud kwallet kwallet-pam kwalletmanager thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst xorg-xsetroot playerctl 
 
 # install yay as aur helper
-#sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-#yay -S themix-full-git lxappearance nerd-fonts-git pywal thunar-shares-plugin visual-studio-code-bin  
+yay -S themix-full-git lxappearance nerd-fonts-git pywal thunar-shares-plugin visual-studio-code-bin  
 
 # flatpak
-#flatpak install com.spotify.Client
+flatpak install com.spotify.Client
 
 # create config directory
 mkdir -p ~/configs
@@ -86,5 +86,4 @@ bspc wm -r
 pkill -USR1 -x sxhkd
 
 # change default shell to fish
- #echo /usr/local/bin/fish | sudo tee -a /etc/shells
   chsh -s /bin/fish

@@ -27,6 +27,7 @@ btop \
 git \
 xfce4-power-manager \
 dunst \ 
+xorg-xsetroot \
 
 AUR
 
