@@ -12,9 +12,6 @@ thunar-archive-plugin \
 firefox \
 lightdm \
 nextcloud \
-kwallet \
-kwallet-pam \
-kwalletmanager \
 thunderbird \
 nextcloud-client \
 flatpak \
@@ -28,6 +25,12 @@ git \
 xfce4-power-manager \
 dunst \ 
 xorg-xsetroot \
+stalonetray \
+gnome-keyring \
+libsecret \
+libgnome-keyring \
+seahorse \
+lssecret-git \
 
 AUR
 
@@ -37,6 +40,7 @@ nerd-fonts-git \
 pywal \
 thunar-shares-plugin \
 visual-studio-code-bin \
+xfce-polkit \
 
 Flatpak
 

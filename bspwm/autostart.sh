@@ -1,7 +1,6 @@
 #! /bin/sh
 
-wal -R 
-kwalletd5 &
+wal -R &
 picom -b &
 flameshot & 
 nextcloud --background &  

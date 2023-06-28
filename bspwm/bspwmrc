@@ -14,16 +14,18 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+bspc rule -a Gpick state = floating
+
 # decoration
 
 /home/martin/.config/themes/gruvbox/bspwm/bspwmrc
 
 # window rules
 
-bspc rule -a Spotify -o desktop=^10
-bspc rule -a Code -o desktop=^2
-bspc rule -a kitty -o desktop=^3
-bspc rule -a Thunar -o desktop=^9
+bspc rule -a Spotify -o desktop=^10  
+bspc rule -a VSCodium -o desktop=^2  
+bspc rule -a kitty -o desktop=^3  
+bspc rule -a Thunar -o desktop=^9  
 
 # launch polybar
 
