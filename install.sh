@@ -24,9 +24,6 @@ cp -r ~/bspwm-gruvbox/. ~/configs
 rm -rf ~/bspwm-gruvbox
 
 # create hardlinks to .config directory
-rm -rf ~/.config/betterlockscreen 
-sudo ln -s ~/configs/betterlockscreen ~/.config/
-
 rm -rf ~/.config/bspwm 
 sudo ln -s ~/configs/bspwm ~/.config/
 
