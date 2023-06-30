@@ -1,7 +1,5 @@
 #! /bin/sh
 
-~/.config/bspwm/autostart.sh 
-
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # BSPWM Config
@@ -18,7 +16,7 @@ bspc rule -a Gpick state = floating
 
 # decoration
 
-/home/martin/.config/themes/gruvbox/bspwm/bspwmrc
+~/.config/themes/gruvbox/bspwm/bspwmrc
 
 # window rules
 
@@ -36,3 +34,5 @@ bspc rule -a Thunar -o desktop=^9
 xsetroot -cursor_name left_ptr
 dunst
 xfce4-power-manager --daemon
+
+~/.config/bspwm/autostart.sh 
