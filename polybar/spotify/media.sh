@@ -1,5 +1,5 @@
 # The name of polybar bar which houses the main spotify module and the control modules.
-PARENT_BAR="i3"
+PARENT_BAR="left"
 
 # Set the source audio player here.
 # Players supporting the MPRIS spec are supported.
@@ -12,4 +12,5 @@ PLAYER=spotify
 # Eg. {{ artist }} - {{ album }} - {{ title }}
 # See more attributes here: https://github.com/altdesktop/playerctl/#printing-properties-and-metadata
 playerctl metadata --player spotify --format "{{ title }} - {{ artist }}"
+
 
