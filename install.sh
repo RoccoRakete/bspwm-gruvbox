@@ -5,13 +5,13 @@ sudo pacman -Syu
 
 # install dependencies
 # pacman
-sudo pacman -S ttf-nerd-fonts-symbols gnome-keyring libsecret libgnome-keyring seahorse stalonetray feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm nextcloud thunderbird nextcloud-client flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst xorg-xsetroot playerctl papirus-icon-theme
+sudo pacman -S jq xorg-xrandr neofetch gnome-keyring libsecret libgnome-keyring seahorse stalonetray feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm thunderbird flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst xorg-xsetroot playerctl papirus-icon-theme
 
 # install yay as aur helper
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin visual-studio-code-bin papirus-icon-theme-git
+yay -S ttf-weather-icons nerd-fonts-git vscodium xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin vscodium 
 
 # flatpak
 flatpak install com.spotify.Client
@@ -65,6 +65,9 @@ sudo ln -s ~/configs/Thunar ~/.config/
 
 rm -rf ~/.config/xfce4 
 sudo ln -s ~/configs/xfce4 ~/.config/
+
+rm -rf ~/.local/share/fonts
+sudo ln -s  ~/configs/fonts/ ~/.local/share/
  
 sudo ln -s ~/configs/.themes ~/.themes
 
