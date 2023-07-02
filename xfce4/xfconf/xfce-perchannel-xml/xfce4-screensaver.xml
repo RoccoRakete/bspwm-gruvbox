@@ -10,4 +10,7 @@
     </property>
     <property name="enabled" type="bool" value="false"/>
   </property>
+  <property name="lock" type="empty">
+    <property name="sleep-activation" type="bool" value="false"/>
+  </property>
 </channel>
