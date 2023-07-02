@@ -80,10 +80,10 @@ chmod +X ~/configs/polybar/tray/tray.sh
 chmod +X ~/configs/polybar/update/update.sh
 chmod +X ~/configs/polybar/weather/weather.sh
 
-# restart bspwm / reload sxhkd config
-startx bspwm
-bspc wm -r
-pkill -USR1 -x sxhkd
-
 # change default shell to fish
 chsh -s /bin/fish
+
+# reboot the system
+echo "Your system will reboot now..."
+sleep 10 
+reboot
