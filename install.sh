@@ -73,6 +73,9 @@ sudo ln -s ~/configs/.themes ~/.themes
 
 sudo ln -s ~/configs/Future-cursors ~/.icons
 
+sudo rm -rf /usr/share/fonts/nerd-fonts-git
+sudo ln -s  ~/configs/fonts/nerd-fonts-git /usr/share/fonts 
+
 # make scripts executable
 chmod +X ~/configs/bspwm/autostart.sh
 chmod +X ~/configs/bspwm/bspwmrc

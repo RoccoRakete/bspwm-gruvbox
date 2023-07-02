@@ -16,6 +16,9 @@ super + b
 super + f
 	thunar
 
+super + p 
+	kitty -e pacseek
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
