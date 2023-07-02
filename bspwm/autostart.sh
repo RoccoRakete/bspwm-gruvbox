@@ -1,7 +1,7 @@
 #! /bin/sh
 
-wal -R &
-picom -b &
+pywal -R &  
 flameshot & 
-nextcloud --background &  
-nm-applet 
+nextcloud --background &
+nm-applet &
+picom -b &

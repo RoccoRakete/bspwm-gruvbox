@@ -1,3 +1,5 @@
+#! /bin/sh
+
 # set wallpaper
 
 feh --bg-fill /home/martin/configs/wallpapers/solar-system-minimal.png
