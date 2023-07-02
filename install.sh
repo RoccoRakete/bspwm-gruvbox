@@ -24,6 +24,9 @@ cp -r ~/bspwm-gruvbox/. ~/configs
 rm -rf ~/bspwm-gruvbox
 
 # create hardlinks to .config directory
+echo "creating systemlinks to configs-directory..."
+sleep 5 
+
 rm -rf ~/.config/bspwm 
 sudo ln -s ~/configs/bspwm ~/.config/
 
@@ -77,6 +80,9 @@ sudo rm -rf /usr/share/fonts/nerd-fonts-git
 sudo ln -s  ~/configs/fonts/nerd-fonts-git /usr/share/fonts 
 
 # make scripts executable
+echo "making scripts executable..."
+sleep 5 
+
 chmod +X ~/configs/bspwm/autostart.sh
 chmod +X ~/configs/bspwm/bspwmrc
 chmod +X ~/configs/polybar/launch.sh
