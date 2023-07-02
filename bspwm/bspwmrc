@@ -17,6 +17,7 @@ bspc rule -a Gpick state = floating
 # decoration
 
 ~/.config/themes/gruvbox/bspwm/bspwmrc
+wal -i ~/configs/wallpapers/solar-system-minimal.png 
 
 # window rules
 
