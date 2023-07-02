@@ -11,7 +11,7 @@ sudo pacman -S jq xorg-xrandr neofetch gnome-keyring libsecret libgnome-keyring 
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S ttf-weather-icons nerd-fonts-git vscodium xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin vscodium 
+yay -S ttf-weather-icons nerd-fonts-git vscodium xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin
 
 # flatpak
 flatpak install com.spotify.Client
@@ -74,7 +74,8 @@ sudo ln -s  ~/configs/fonts/ ~/.local/share/
  
 sudo ln -s ~/configs/.themes ~/.themes
 
-sudo ln -s ~/configs/Future-cursors ~/.icons
+sudo ln -s  ~/configs/icons/Future-cursors/ ~/.icons
+sudo ln -s  ~/configs/icons/Future-cyan-cursors/ ~/.icons
 
 sudo rm -rf /usr/share/fonts/nerd-fonts-git
 sudo ln -s  ~/configs/fonts/nerd-fonts-git /usr/share/fonts 

@@ -1,4 +1,5 @@
-eww/eww.scss
-eww/eww.yuck
+eww/
+#eww/eww.yuck
 configs.code-workspace
 vscodium_token
+xfce4/
