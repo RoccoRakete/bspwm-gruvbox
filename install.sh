@@ -11,7 +11,7 @@ sudo pacman -S kate jq xorg-xrandr neofetch gnome-keyring libsecret libgnome-key
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S ttf-weather-icons nerd-fonts-git xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin
+yay -S ttf-weather-icons xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin
 
 # unused dependencies for now 
 # AUR 
