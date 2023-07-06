@@ -2,7 +2,7 @@
 
 # set wallpaper
 
-feh --bg-fill /home/martin/configs/wallpapers/solar-system-minimal.png
+feh --bg-fill Dokumente/Backgrounds/gruvbox-wallpapers-main/wallpapers/mix/wallhaven-vmk698.jpg 
 
 # Decoration
 
