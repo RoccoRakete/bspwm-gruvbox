@@ -19,6 +19,7 @@ bspc rule -a Nextcloud state = floating
 # decoration
 
 ~/.config/themes/gruvbox/bspwm/bspwmrc
+xsetroot -cursor_name left_ptr
 #wal -i ~/configs/wallpapers/solar-system-minimal.png 
 
 # window rules
@@ -34,7 +35,5 @@ bspc rule -a Thunar -o desktop=^9
 
 # start stuff
 
-xsetroot -cursor_name left_ptr
-xfce4-power-manager --daemon
 ~/.config/bspwm/autostart.sh
  
