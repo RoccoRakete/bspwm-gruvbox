@@ -11,8 +11,8 @@
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="empty">
-        <property name="X" type="double" value="1.2999999523162842"/>
-        <property name="Y" type="double" value="1.2999999523162842"/>
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
@@ -40,7 +40,5 @@
     </property>
   </property>
   <property name="Notify" type="int" value="1"/>
-  <property name="Schemes" type="empty">
-    <property name="Apply" type="string" value="Fallback"/>
-  </property>
+  <property name="ActiveProfile" type="string" value="Default"/>
 </channel>

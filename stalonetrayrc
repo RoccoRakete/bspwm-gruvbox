@@ -34,7 +34,7 @@ fuzzy_edges 0
 
 # geometry <geometry>        # tray's geometry in standard X notation; width and
                              # height are specified in slot_size multiples
-geometry 1x3+2498+55
+geometry 3x2+2410+60
 
 # grow_gravity <gravity>     # one of N, S, E, W, NW, NE, SW, SE; tray will grow
                              # in the direction opposite to one specified by
@@ -119,7 +119,7 @@ tint_level 0
                              # image must be set with Esetroot or compatible utility)
 transparent false
 
-# vertical [<bool>]          # whether to use vertical layout (horisontal layout
+# vertical [<bool>]          # whether to use vertical layout (horizontal layout
                              # is used by default)
 vertical false
 

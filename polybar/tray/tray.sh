@@ -1,3 +1,3 @@
 #! /bin/sh
 
-killall stalonetray || stalonetray 
+killall stalonetray  ||  stalonetray 
