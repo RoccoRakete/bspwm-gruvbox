@@ -11,7 +11,7 @@ sudo pacman -S dunst xfce4-settings gvfs thunar-volman kate jq xorg-xrandr neofe
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S ttf-weather-icons xfce-polkit lssecret-git themix-full-git pywal thunar-shares-plugin
+yay -S ntfd-bin ttf-weather-icons xfce-polkit lssecret-git themix-full-git pywal thunar-shares-plugin
 
 # unused dependencies for now 
 # AUR 
