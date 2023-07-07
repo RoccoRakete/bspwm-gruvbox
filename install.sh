@@ -5,13 +5,13 @@ sudo pacman -Syu
 
 # install dependencies
 # pacman
-sudo pacman -S gvfs thunar-volman kate jq xorg-xrandr neofetch gnome-keyring libsecret libgnome-keyring seahorse stalonetray feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm thunderbird flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst xorg-xsetroot playerctl papirus-icon-theme
+sudo pacman -S dunst xfce4-settings gvfs thunar-volman kate jq xorg-xrandr neofetch gnome-keyring libsecret libgnome-keyring seahorse stalonetray feh rofi kitty bspwm polybar thunar thunar-archive-plugin firefox lightdm thunderbird flatpak picom pavucontrol sxhkd fish htop btop git xfce4-power-manager dunst xorg-xsetroot playerctl papirus-icon-theme
 
 # install yay as aur helper
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # yay (AUR)
-yay -S ttf-weather-icons xfce-polkit lssecret-git themix-full-git lxappearance pywal thunar-shares-plugin
+yay -S ttf-weather-icons xfce-polkit lssecret-git themix-full-git pywal thunar-shares-plugin
 
 # unused dependencies for now 
 # AUR 
