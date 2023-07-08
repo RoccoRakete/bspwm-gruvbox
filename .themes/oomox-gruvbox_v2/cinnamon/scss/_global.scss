@@ -65,15 +65,15 @@ $scrollbar_slider_color: mix($dark_bg_color, $dark_fg_color, 20%);
 $scrollbar_slider_hover_color: mix($dark_bg_color, $selected_bg_color, 20%);
 
 // caret colors for dialog entrys
-$primary_caret_color: #091b2c;
+$primary_caret_color: #ebdbb2;
 
 // other colors used in the theme
-$link_color: #51a2a6;
-$success_color: #b7ff73;
-$warning_color: #ead573;
-$error_color: #eaa2a6;
+$link_color: #6a22ff;
+$success_color: #6aff26;
+$warning_color: #ffff26;
+$error_color: #ff2226;
 $info_fg_color: #46423a;
-$info_bg_color: #84d5d9;
+$info_bg_color: #c67eff;
 
 // used for border-radius throughout theme
 $roundness: 4px;

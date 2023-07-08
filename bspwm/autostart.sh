@@ -1,5 +1,6 @@
 #! /bin/sh
 
+python ~/.config/pulse-volume-watcher.py | xob &
 ntfd &
 xfsettingsd &
 xfce4-power-manager --daemon &
