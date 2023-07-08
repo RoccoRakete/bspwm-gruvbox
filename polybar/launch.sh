@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# Terminate already running bar instances11
+# Terminate already running bar instances11111
 # If all your bars have ipc enabled, you can use
 polybar-msg cmd quit
 # Otherwise you can use the nuclear option:
